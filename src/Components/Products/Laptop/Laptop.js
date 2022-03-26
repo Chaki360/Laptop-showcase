@@ -14,7 +14,7 @@ const Laptop = (props) => {
                 Price: ${price}
             </h3>
 
-            <button className='btn-cart'>Add To Cart</button>
+            <button onClick={() => props.handleAddToCart(props.laptop)} className='btn-cart'>Add To Cart</button>
         </div>
     );
 };
