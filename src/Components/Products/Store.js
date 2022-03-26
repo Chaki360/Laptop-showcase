@@ -19,8 +19,10 @@ const Store = () => {
                     laptop={laptop}></Laptop>)}
             </div>
             <div className='cart-container'>
-
-                <h1>Hello</h1>
+                <h2>Slect One Item</h2>
+                <button className='suggest-btn'>Suggest One</button>
+                <br />
+                <button className='reset-btn'>Reset</button>
             </div>
 
         </div>

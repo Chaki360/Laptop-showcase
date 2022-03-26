@@ -9,3 +9,17 @@ grid-template-columns: 1fr 5fr;
     gap: 52px;
     
 }
+.suggest-btn{
+    font-size: larger;
+    font-weight: 700;
+    background-color: rgba(174, 222, 135, 0.836);
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+.reset-btn{
+
+    font-size: medium;
+    font-weight: 500;
+    background-color: rgba(197, 20, 220, 0.664);
+    border-radius: 15px;
+}

@@ -5,17 +5,20 @@
 }
 .product{
 
-    border: 1px solid;
+    border: 1px lightblue;
+    box-shadow: 10px;
+    background-color: floralwhite;
+    
     
     
 }
 .btn-cart{
     width: 100%;
-    background-color: bisque;
+    background-color: rgba(240, 230, 140, 0.774);
     font-weight: 700;
     border: none;
     border-radius: 15px;
-    bottom: 0;
+    font-size: larger;
 
 }
 .btn-cart:hover{
