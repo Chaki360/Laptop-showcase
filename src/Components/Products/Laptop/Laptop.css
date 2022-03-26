@@ -1,0 +1,23 @@
+.product-image{
+
+    height: 30%;
+    
+}
+.product{
+
+    border: 1px solid;
+    
+    
+}
+.btn-cart{
+    width: 100%;
+    background-color: bisque;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+    bottom: 0;
+
+}
+.btn-cart:hover{
+    background-color: gold;
+}

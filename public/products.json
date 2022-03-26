@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Lenovo",
+    "image": "https://img.freepik.com/free-psd/laptop-psd-mockup-with-gradient-led-light_53876-138283.jpg",
+    "rating": 4.65,
+    "price": 1250
+  },
+  {
+    "id": 2,
+    "name": "Hyundai",
+    "image": "https://img.freepik.com/free-photo/laptop-with-blank-black-screen-white-table_53876-97915.jpg",
+    "rating": 4.75,
+    "price": 752
+  },
+  {
+    "id": 3,
+    "name": "Dell",
+    "image": "https://img.freepik.com/free-photo/business-technology-communication-concept-minimalistic-workspace-with-modern-laptop-computer-with-white-blank-screen_273609-1702.jpg",
+    "rating": 4,
+    "price": 856
+  },
+  {
+    "id": 4,
+    "name": "Bmax Surface",
+    "image": "https://img.freepik.com/free-photo/laptop-blank-screen-digital-device_53876-97311.jpg",
+    "rating": 4.5,
+    "price": 2250
+  },
+  {
+    "id": 5,
+    "name": "Casper",
+    "image": "https://img.freepik.com/free-photo/desk-arrangement-with-laptop-top-view_23-2149073069.jpg",
+    "rating": 4.3,
+    "price": 1125
+  },
+  {
+    "id": 6,
+    "name": "Durabook",
+    "image": "https://img.freepik.com/free-photo/laptop-with-white-screen-isolated-white-wall_231208-8594.jpg",
+    "rating": 4.6,
+    "price": 741
+  },
+  {
+    "id": 7,
+    "name": "Eluktronics",
+    "image": "https://img.freepik.com/free-photo/laptop-spectacle-yellow-coffee-mug-diary-table-with-black-textured-wall_23-2147956645.jpg",
+    "rating": 4.7,
+    "price": 1568
+  },
+  {
+    "id": 8,
+    "name": "HP Pavilion",
+    "image": "https://img.freepik.com/free-photo/unrecognizable-asian-woman-sitting-cafe-working-laptop_1098-17167.jpg",
+    "rating": 4.8,
+    "price": 456
+  },
+  {
+    "id": 9,
+    "name": "Machenike",
+    "image": "https://img.freepik.com/free-photo/business-presentation-laptop-screen_53876-13516.jpg",
+    "rating": 4.9,
+    "price": 2546
+  },
+  {
+    "id": 10,
+    "name": "Asus",
+    "image": "https://img.freepik.com/free-photo/open-laptop_144627-12148.jpg",
+    "rating": 4.1,
+    "price": 1475
+  },
+  {
+    "id": 11,
+    "name": "Panasonic",
+    "image": "https://img.freepik.com/free-photo/female-hand-typing-keyboard-laptop_1150-15742.jpg",
+    "rating": 4.2,
+    "price": 1902
+  },
+  {
+    "id": 12,
+    "name": "Optima",
+    "image": "https://img.freepik.com/free-photo/business-finance-employment-female-successful-entrepreneurs-concept-enthusiastic-office-manager-showing-her-presentation-laptop-pointing-screen-smiling-amused_1258-59145.jpg",
+    "rating": 4.9,
+    "price": 2646
+  }
+]
