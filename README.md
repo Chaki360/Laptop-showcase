@@ -1,4 +1,4 @@
-# Hello from Laptop store
+# Hello from Laptop Store
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

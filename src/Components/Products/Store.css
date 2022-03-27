@@ -7,6 +7,8 @@ grid-template-columns: 1fr 5fr;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 52px;
+    margin-right: 10px;
+    padding-right: 10px;
     
 }
 .suggest-btn{
@@ -24,6 +26,7 @@ grid-template-columns: 1fr 5fr;
     border-radius: 15px;
 }
 .cart-items{
-background-color: lightgoldenrodyellow;
-    border-radius: 15px;
+background-color: LemonChiffon ;
+    border-radius: 25px;
+    box-shadow: 10px;
 }

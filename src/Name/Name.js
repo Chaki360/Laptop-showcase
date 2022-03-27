@@ -5,6 +5,7 @@ const Name = (props) => {
     return (
         <div>
             {name}
+
         </div>
     );
 };

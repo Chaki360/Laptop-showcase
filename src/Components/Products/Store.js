@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Name from '../../Name/Name';
+import Questions from '../../Questions/Questions';
 import Laptop from './Laptop/Laptop';
 import './Store.css'
 
@@ -45,9 +46,7 @@ const Store = () => {
                     <br />
                     <button className='reset-btn'>Reset</button>
                 </div>
-                <h2>How React Works?</h2>
-                <br />
-                <p></p>
+                <Questions></Questions>
             </div>
 
         </div>
