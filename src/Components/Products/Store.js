@@ -2,22 +2,30 @@ import React, { useEffect, useState } from 'react';
 import Name from '../../Name/Name';
 import Laptop from './Laptop/Laptop';
 import './Store.css'
+
+
 const Store = () => {
     const [laptops, setLaptops] = useState([0]);
 
     const [names, setNames] = useState([0]);
+
 
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
             .then(data => setLaptops(data))
 
+
     }, [])
+
     const handleAddToCart = (laptop) => {
         const newName = [...names, laptop];
         setNames(newName);
 
     }
+
+
+
     return (
         <div className='shop-container'>
 
@@ -29,6 +37,7 @@ const Store = () => {
             <div className='cart-container'>
                 <div className='cart-items'>
                     <h2>Product Summary </h2>
+
                     <h3>
                         {names.map(name => <Name name={name}></Name>)}
                     </h3>
@@ -36,6 +45,9 @@ const Store = () => {
                     <br />
                     <button className='reset-btn'>Reset</button>
                 </div>
+                <h2>How React Works?</h2>
+                <br />
+                <p></p>
             </div>
 
         </div>
