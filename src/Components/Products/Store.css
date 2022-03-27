@@ -23,3 +23,7 @@ grid-template-columns: 1fr 5fr;
     background-color: rgba(197, 20, 220, 0.664);
     border-radius: 15px;
 }
+.cart-items{
+background-color: lightgoldenrodyellow;
+    border-radius: 15px;
+}

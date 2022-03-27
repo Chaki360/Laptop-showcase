@@ -27,13 +27,15 @@ const Store = () => {
                     laptop={laptop} handleAddToCart={handleAddToCart}></Laptop>)}
             </div>
             <div className='cart-container'>
-                <h2>Slect One Item</h2>
-                <h3>
-                    {names.map(name => <Name name={name}></Name>)}
-                </h3>
-                <button className='suggest-btn'>Suggest One</button>
-                <br />
-                <button className='reset-btn'>Reset</button>
+                <div className='cart-items'>
+                    <h2>Product Summary </h2>
+                    <h3>
+                        {names.map(name => <Name name={name}></Name>)}
+                    </h3>
+                    <button className='suggest-btn'>Suggest One</button>
+                    <br />
+                    <button className='reset-btn'>Reset</button>
+                </div>
             </div>
 
         </div>
