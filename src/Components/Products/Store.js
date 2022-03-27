@@ -11,6 +11,11 @@ const Store = () => {
     const [names, setNames] = useState([0]);
 
 
+
+    const randomChoice = laptops[Math.floor(Math.random() * laptops.length)];
+    function randomProduct() {
+        return randomChoice.name
+    }
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
@@ -22,6 +27,13 @@ const Store = () => {
     const handleAddToCart = (laptop) => {
         const newName = [...names, laptop];
         setNames(newName);
+
+
+    }
+    const handleRandomChoice = () => {
+
+        const cart = randomProduct()
+
 
     }
 
@@ -40,9 +52,10 @@ const Store = () => {
                     <h2>Product Summary </h2>
 
                     <h3>
+                        { }
                         {names.map(name => <Name name={name}></Name>)}
                     </h3>
-                    <button className='suggest-btn'>Suggest One</button>
+                    <button onClick={handleRandomChoice} className='suggest-btn'>Suggest One</button>
                     <br />
                     <button className='reset-btn'>Reset</button>
                 </div>
